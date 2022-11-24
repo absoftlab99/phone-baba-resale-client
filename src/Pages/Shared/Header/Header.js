@@ -29,6 +29,7 @@ return (
                 >
                     <li>
                         <Link to='/home'>Home</Link>
+                        <Link to='/login'>Login</Link>
                     </li>
                 </ul>
             </div>
@@ -38,6 +39,7 @@ return (
             <ul className="menu menu-horizontal p-0">
                 <li>
                     <Link to='/home'>Home</Link>
+                    <Link to='/login'>Login</Link>
                 </li>
             </ul>
             </div>
