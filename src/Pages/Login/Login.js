@@ -32,7 +32,7 @@ const Login = () => {
                     <button className="btn btn-primary">Login</button>
                     </div>
                     <label className="label">
-                        <Link className="label-text-alt link link-hover">If you have no account Register Here!</Link>
+                        <Link to='/register' className="label-text-alt link link-hover">If you have no account please REGISTER</Link>
                     </label>
                     <div className="divider">OR</div>
                     <div className="flex justify-center">
