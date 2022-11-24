@@ -42,7 +42,7 @@ return (
             </ul>
             </div>
             <div className="navbar-end">
-            <Link className="btn btn-primary">Add Product</Link>
+                <Link className="btn btn-primary">Add Product</Link>
             </div>
         </div>
         </div>
