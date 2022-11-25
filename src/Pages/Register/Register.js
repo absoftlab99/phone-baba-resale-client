@@ -34,6 +34,16 @@ const Register = () => {
                         <Link className="label-text-alt link link-hover">Forgot password?</Link>
                     </label>
                     </div>
+                    <div className='flex justify-items-center items-center gap-2'>
+                        <input type="radio" name="radio-2" className="radio radio-primary" />
+                        <label className="label">
+                            <span className="label-text">As a Seller</span>
+                        </label>
+                        <input type="radio" name="radio-2" className="radio radio-accent" />
+                        <label className="label">
+                            <span className="label-text">As a Buyer</span>
+                        </label>
+                    </div>
                     <div className="form-control mt-6">
                     <button className="btn btn-primary">Register</button>
                     </div>

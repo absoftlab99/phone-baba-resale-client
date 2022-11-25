@@ -1,4 +1,5 @@
 import React from 'react';
+import Ads from './Ads';
 import Banner from './Banner';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                     <div className="card p-5 shadow-xl md:p-10 w-40 border cursor-pointer bg-accent hover:bg-primary">Spark</div>
                 </div>
             </div>
+            <Ads></Ads>
         </div>
     );
 };
