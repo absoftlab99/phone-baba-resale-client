@@ -32,6 +32,7 @@ return (
                         <Link to='/login'>Login</Link>
                         <Link to='/my-products'>My Product</Link>
                         <Link to='/category'>Category</Link>
+                        <Link to='/dashboard'>Dashboard</Link>
                     </li>
                 </ul>
             </div>
@@ -44,6 +45,7 @@ return (
                     <Link to='/login'>Login</Link>
                     <Link to='/my-products'>My Product</Link>
                     <Link to='/category'>Category</Link>
+                    <Link to='/dashboard'>Dashboard</Link>
                 </li>
             </ul>
             </div>

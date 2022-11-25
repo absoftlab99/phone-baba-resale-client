@@ -1,7 +1,11 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
+import Cpanel from '../../layouts/Cpanel';
 import Main from '../../layouts/Main';
 import Category from '../../Pages/Category/Category';
+import AllBuyers from '../../Pages/Dashboard/Admin/AllBuyers';
+import AllSellers from '../../Pages/Dashboard/Admin/AllSellers';
+import ReportedItems from '../../Pages/Dashboard/Admin/ReportedItems';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
 import MyProducts from '../../Pages/MyProducts/MyProducts';
@@ -35,6 +39,24 @@ export const router = createBrowserRouter([
             {
                 path: '/category',
                 element: <Category></Category>
+            },
+        ]
+    },
+    {
+        path: '/dashboard',
+        element: <Cpanel></Cpanel>,
+        children:[
+            {
+                path: '/dashboard/allSellers',
+                element: <AllSellers></AllSellers>
+            },
+            {
+                path: '/dashboard/allBuyers',
+                element: <AllBuyers></AllBuyers>
+            },
+            {
+                path: '/dashboard/reportedItems',
+                element: <ReportedItems></ReportedItems>
             },
         ]
     }
