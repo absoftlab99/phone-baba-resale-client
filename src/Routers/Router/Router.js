@@ -6,10 +6,15 @@ import Category from '../../Pages/Category/Category';
 import AllBuyers from '../../Pages/Dashboard/Admin/AllBuyers';
 import AllSellers from '../../Pages/Dashboard/Admin/AllSellers';
 import ReportedItems from '../../Pages/Dashboard/Admin/ReportedItems';
+import MyOrders from '../../Pages/Dashboard/Buyer/MyOrders';
+import WishList from '../../Pages/Dashboard/Buyer/WishList';
+import AddProduct from '../../Pages/Dashboard/Seller/AddProduct';
+import MyBuyers from '../../Pages/Dashboard/Seller/MyBuyers';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
-import MyProducts from '../../Pages/MyProducts/MyProducts';
+import MyProducts from '../../Pages/Dashboard/Seller/MyProducts/MyProducts';
 import Register from '../../Pages/Register/Register';
+import Products from '../../Pages/Products/Products';
 
 export const router = createBrowserRouter([
     {
@@ -33,8 +38,8 @@ export const router = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: '/my-products',
-                element: <MyProducts></MyProducts>
+                path: '/products',
+                element: <Products></Products>
             },
             {
                 path: '/category',
@@ -57,6 +62,26 @@ export const router = createBrowserRouter([
             {
                 path: '/dashboard/reportedItems',
                 element: <ReportedItems></ReportedItems>
+            },
+            {
+                path: '/dashboard/myOrders',
+                element: <MyOrders></MyOrders>
+            },
+            {
+                path: '/dashboard/wishList',
+                element: <WishList></WishList>
+            },
+            {
+                path: '/dashboard/addProduct',
+                element: <AddProduct></AddProduct>
+            },
+            {
+                path: '/dashboard/myBuyers',
+                element: <MyBuyers></MyBuyers>
+            },
+            {
+                path: '/dashboard/myProducts',
+                element: <MyProducts></MyProducts>
             },
         ]
     }

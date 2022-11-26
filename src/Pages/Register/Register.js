@@ -45,7 +45,7 @@ const Register = () => {
                         <label className="label">
                             <span className="label-text">As a Seller</span>
                         </label>
-                        <input type="radio" name="radio-2" className="radio radio-accent" />
+                        <input type="radio" name="radio-2" className="radio radio-accent" checked/>
                         <label className="label">
                             <span className="label-text">As a Buyer</span>
                         </label>
