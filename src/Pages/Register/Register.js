@@ -21,9 +21,9 @@ const Register = () => {
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text">Photo URL</span>
+                        <span className="label-text">Upload Photo</span>
                     </label>
-                    <input type="text" placeholder="Photo URL" className="input input-bordered" />
+                    <input type="file" className="file-input file-input-bordered file-input-primary w-full max-w-xs" />
                     </div>
                     <div className="form-control">
                     <label className="label">
