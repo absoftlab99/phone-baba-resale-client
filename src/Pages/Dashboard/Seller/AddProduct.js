@@ -5,6 +5,12 @@ const AddProduct = () => {
         <div>
             <h1 className='text-3xl py-4'>Product Add Form</h1>
             <form className='md:w-8/12 sm:w-full mx-auto'>
+                <div>
+                    <label className="label">
+                        <span className="label-text">Product Photo</span>
+                    </label>
+                    <input type="file" className="file-input file-input-bordered file-input-primary w-full" placeholder='please upload 600*400 .jpg, .png or .webp image' />
+                </div>
                 <div className="form-control grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
                     <div className=''>
                     <label className="label">
@@ -78,6 +84,7 @@ const AddProduct = () => {
                     <input type="text" placeholder="ex- Dhaka" className="input input-bordered w-full" />
                     </div>
                 </div>
+                <button className='my-5 btn btn-primary' type="submit">Add Product</button>
             </form>
         </div>
     );
