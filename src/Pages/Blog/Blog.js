@@ -48,6 +48,21 @@ const Blog = () => {
                 Other times, someone will come in after the fact and write tests to help create safe guards while they refactor or further develop that area of the code base.
                 </p>
             </div>
+            <div className='p-10'>
+                <h1 className='text-4xl text-left font-semibold'>Blog-4: React. vs Angular. vs Vue?</h1>
+                <p className='text-justify mt-10'>
+                <b className='text-xl'>What is React?</b><br></br>
+                React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.<br></br>
+                Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.<br></br><br></br>
+                We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using React Native.<br></br><br></br>
+                <b className='text-xl'>What is Angular?</b><br></br>
+                Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop. Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.<br></br>Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.<br></br><br></br>
+                Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor. All this comes together so you can focus on building amazing apps rather than trying to make the code work.
+                <br></br><br></br>
+                <b className='text-xl'>What is Vue?</b><br></br>
+                Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
+                </p>
+            </div>
         </div>
     );
 };
