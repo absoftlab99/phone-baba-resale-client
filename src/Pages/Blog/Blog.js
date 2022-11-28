@@ -26,6 +26,28 @@ const Blog = () => {
                 There are undoubtedly more pieces of state that we could identify, but these are the major categories worth focusing on for most applications you build.
                 </p>
             </div>
+            <div className='p-10'>
+                <h1 className='text-4xl text-left font-semibold'>Blog-2: How does prototypical inheritance work?</h1>
+                <p className='text-justify mt-10'>
+                Everything in Javascript is an object. Even when creating a Class is an Object via an Object Literal or Constructor Function. This is how Javascript does class-based programming as to other traditional Object-Oriented Programming languages where they use the keyword ‘class’ and ‘inheritance’.<br></br><br></br>
+                Javascript’s version of class-based programming and other traditional class-based programming languages work with the same concept but does not work exactly similar. There are differences in its keyword, syntax, and how it works. There are also debates regarding pros and cons of Javascript’s version of class-based programming, but for simplicity’s sake and learning purposes, I do not want to go over those issues. See details here [http://www.2ality.com/2011/11/javascript-classes.html].<br></br><br></br>
+                So, the core idea of Prototypal Inheritance is that an object can point to another object and inherit all its properties. The main purpose is to allow multiple instances of an object to share common properties, hence, the Singleton Pattern.<br></br>
+                Below is a sample code with comments and caption to better see how it works:<br></br>
+                After going through the code, its best to read further about Prototypal Inheritance from mozilla doc. Code example below is just one of many ways of implementing Prototypal Inheritance.
+                </p>
+            </div>
+            <div className='p-10'>
+                <h1 className='text-4xl text-left font-semibold'>Blog-3: What is a unit test? Why should we write unit tests?</h1>
+                <p className='text-justify mt-10'>
+                <b className='text-xl'>What is Unit Test?</b><br></br>
+                A unit test is a way of testing a unit - the smallest piece of code that can be logically isolated in a system. In most programming languages, that is a function, a subroutine, a method or property. The isolated part of the definition is important. In his book "Working Effectively with Legacy Code", author Michael Feathers states that such tests are not unit tests when they rely on external systems: “If it talks to the database, it talks across the network, it touches the file system, it requires system configuration, or it can't be run at the same time as any other test."<br></br><br></br>
+                Modern versions of unit testing can be found in frameworks like JUnit, or testing tools like TestComplete. Look a little further and you will find SUnit, the mother of all unit testing frameworks created by Kent Beck, and a reference in chapter 5 of The Art of Software Testing . Before that, it's mostly a mystery. I asked Jerry Weinberg about his experiences with unit testing -- "We did unit testing in 1956. As far as I knew, it was always done, as long as there were computers".<br></br>
+                Regardless of when and where unit testing began, one thing is for sure. Unit testing is here to stay. Let's look at some more practical aspects of unit testing.<br></br><br></br>
+                <b className='text-xl'>Why should we write unit tests?</b><br></br>
+                Frequently, unit testing is considered part of the programming phase, with the person that wrote the program...unit testing". That isn't because programmers hold the secret sauce to unit testing, it's because it makes sense. The programmer that wrote the prod code will likely know how to access the parts that can be tested easily and how to mock objects that can't be accessed otherwise. It's a time trade off.<br></br><br></br>
+                Other times, someone will come in after the fact and write tests to help create safe guards while they refactor or further develop that area of the code base.
+                </p>
+            </div>
         </div>
     );
 };
