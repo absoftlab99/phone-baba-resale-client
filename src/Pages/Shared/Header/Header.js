@@ -31,6 +31,7 @@ return (
                         <Link to='/home'>Home</Link>
                         <Link to='/products'>Products</Link>
                         <Link to='/dashboard'>Dashboard</Link>
+                        <Link to='/blog'>Blog</Link>
                         <Link to='/login'>Login</Link>
                     </li>
                 </ul>
@@ -43,6 +44,7 @@ return (
                     <Link to='/home'>Home</Link>
                     <Link to='/products'>Products</Link>
                     <Link to='/dashboard'>Dashboard</Link>
+                    <Link to='/blog'>Blog</Link>
                     <Link to='/login'>Login</Link>
                 </li>
             </ul>

@@ -12,7 +12,7 @@ const MyProducts = () => {
     },[])
     return (
         <div className=''>
-            <h1 className="text-4xl font-bold">My Products</h1>
+            <h1 className="text-3xl">My Products</h1>
             <div className="grid lg:grid-cols-3 mt-15">
                 {
                     products.map(product =><Product

@@ -15,6 +15,7 @@ import Login from '../../Pages/Login/Login';
 import MyProducts from '../../Pages/Dashboard/Seller/MyProducts/MyProducts';
 import Register from '../../Pages/Register/Register';
 import Products from '../../Pages/Products/Products';
+import Blog from '../../Pages/Blog/Blog';
 
 export const router = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
             {
                 path: '/category',
                 element: <Category></Category>
+            },
+            {
+                path: '/blog',
+                element: <Blog></Blog>
             },
         ]
     },
