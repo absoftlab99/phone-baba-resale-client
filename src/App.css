@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 .ff-parsi{
   font-family: 'Parisienne', cursive;
@@ -9,8 +9,9 @@
 .ff-comfort{
   font-family: 'Comfortaa', cursive;
 }
-.main{
-  min-height: 100vh;
+.custom-mx-w {
+  max-width: 1440px;
+  margin:auto ;
 }
 
 .App-logo {
